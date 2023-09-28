@@ -18,22 +18,23 @@
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">A Few Cities</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="basic.html">Basic</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="advanced.html">Advanced</a>
-              </li>
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">A Few Cities</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="basic.html">Basic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="advanced.html">Advanced</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
 
     <style>
         body {
@@ -170,24 +171,73 @@
         </ul>
     </div><br>
     <form>
-        <div class=" form-group" >
-          
-          <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" id="email" aria-describedby="emailHelp"  placeholder="Enter your email" >
-          <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        <div class=" form-group">
+
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                placeholder="Enter your email">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div><br>
         <div class=" form-group">
-          <label for="city" class="form-label">City</label>
-          <input type="text" class="form-control" id="city" placeholder="Enter your city">
+            <label for="city" class="form-label">City</label>
+            <input type="text" class="form-control" id="city" placeholder="Enter your city">
         </div><br>
         <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="newsletter">
-          <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+            <input type="checkbox" class="form-check-input" id="newsletter">
+            <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
         </div><br>
         <button type="submit" class="btn btn-primary">Submit</button>
-      </form><br><br>
-    
-    
+    </form><br><br>
+    <!--BONUS-->
+    <div class="container">
+        <div class="row">
+            <!-- Rome Card -->
+            <div class="col-sm-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="Rome city.jpg" class="card-img-top" alt="Rome city Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Rome</h5>
+                        <p class="card-text">Rome is the capital city of Italy and capital of the Lazio region.</p>
+                        <a href="https://en.wikipedia.org/wiki/Rome" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Austin Card -->
+            <div class="col-sm-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="Austin city.jpg" class="card-img-top" alt="Austin city Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Austin</h5>
+                        <p class="card-text">Austin is the southernmost state capital in the contiguous United States
+                            and is considered a Beta-level global city as categorized by the Globalization and World
+                            Cities Research Network.
+                        </p>
+                        <a href="https://en.wikipedia.org/wiki/Austin,_Texas#:~:text=Austin%20is%20the%20southernmost%20state,and%20World%20Cities%20Research%20Network.&text=As%20of%202021%2C%20Austin%20had,961%2C855%20at%20the%202020%20census."
+                            class="btn btn-primary">Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- jacsonville Card -->
+            <div class="col-sm-4 mb-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="jacksonville city.jpg" class="card-img-top" alt="jacksonville city Image">
+                    <div class="card-body">
+                        <h5 class="card-title">jacsonville</h5>
+                        <p class="card-text">Jacksonville straddles the St. Johns River in the First Coast region of
+                            northeastern Florida, about 12 miles (19 kilometers) south of the Georgia state line (25 mi
+                            or 40 km to the urban core/downtown) and 350 miles (560 km) north of Miami.</p>
+                        <a href="https://en.wikipedia.org/wiki/Jacksonville,_Florida#:~:text=Jacksonville%20straddles%20the%20St.%20Johns,along%20the%20adjacent%20Atlantic%20coast."
+                            class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
